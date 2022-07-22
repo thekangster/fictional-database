@@ -6,11 +6,11 @@ This program will allow us to see a represenation of a simple database of our cu
 
 **supported commands:**
 
-  `add`: prompt the user for an email address, a display name, a shoe size, and a favorite food. If that email address is already present, then it will replace the data that was already in the hash table with the new entry.
+  `add`: enter an email address, a display name, a shoe size, and a favorite food. If that email address is already present, then it will replace the data that was already present with the new entry.
 
-  `lookup`: prompt the user for an email address, then display all the information we have about that user if the specified customer is found.
+  `lookup`: enter an email address, then the program will display all the information we have about that user if the specified customer is found.
 
-  `delete`: prompt the user for an email address, then delete all information we have about that user if the specified customer is found.
+  `delete`: enter an email address, then delete all information we have about that user if the specified customer is found.
 
   `list`: display every user in the database.
 
