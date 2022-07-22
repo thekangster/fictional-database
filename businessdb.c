@@ -1,4 +1,4 @@
-#include "hw7.h"
+#include "map.h"
 
 #include <stdio.h>
 #include <stdlib.h>

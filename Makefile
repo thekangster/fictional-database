@@ -4,14 +4,14 @@ CFLAGS = -Wall -Wpedantic -Werror -Wextra
 
 all: businessdb
 
-businessdb: hw7.o businessdb.o
-	$(CC) $(CFLAGS) -o businessdb hw7.o businessdb.o
+businessdb: map.o businessdb.o
+	$(CC) $(CFLAGS) -o businessdb map.o businessdb.o
 
-businessdb.o: businessdb.c hw7.h
+businessdb.o: businessdb.c map.h
 	$(CC) $(CFLAGS) -c businessdb.c
 
 clean:
-	rm -f hw7.o businessdb.o hw7 businessdb
+	rm -f map.o businessdb.o map businessdb
 
 format:
 	clang-format -i -style=file *.[ch]
