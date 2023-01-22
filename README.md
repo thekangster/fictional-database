@@ -2,7 +2,7 @@
 
 We've talked to several *very* expensive consultants, and now we're convinced that the future isn't building solvers for wordle anymore. The world has moved on, and the shareholders are demanding that we move into the next big thing, which is of course e-commerce businesses that sell both snacks and shoes, using hash tables.
 
-This program will allow us to see a represenation of a simple database of our customers and the information we know about them. This database also has an interface that gives us the ability to read a database file from the disk, add customers, delete customers, and save the database back to the file.
+This program will allow us to see a representation of a simple database of our customers and the information we know about them. This database also has an interface that gives us the ability to read a database file from the disk, add customers, delete customers, and save the database back to the file.
 
 **supported commands:**
 
